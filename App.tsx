@@ -1,4 +1,3 @@
-// App.tsx
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -11,7 +10,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
 
-// Custom Header
 const CustomHeader = ({ title }: { title: string }) => (
   <View style={styles.header}>
     <Text style={styles.headerText}>{title}</Text>

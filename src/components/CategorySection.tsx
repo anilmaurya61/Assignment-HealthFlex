@@ -1,4 +1,3 @@
-// src/components/CategorySection.tsx
 import React, { useState, useContext } from 'react';
 import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
 import { TimerContext, Timer } from '../context/TimerContext';
